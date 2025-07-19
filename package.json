@@ -1,0 +1,43 @@
+{
+  "name": "backend-winfellas-back-office",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassineFAT/backend-winfellas-back-office.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassineFAT/backend-winfellas-back-office/issues"
+  },
+  "homepage": "https://github.com/yassineFAT/backend-winfellas-back-office#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.17.20",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^24.0.14",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/compression": "^1.8.1",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.4"
+  }
+}
